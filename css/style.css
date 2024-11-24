@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Qwitcher+Grypen:wght@400;700&display=swap');
-.nav-link,.navbar-brand{
+.nav-link,.navbar-brand,.whiteFont{
     color: white ! important;
 }
-.navbar-brand{
-    /* font-family: "Qwitcher Grypen", cursive;
-    font-weight: 400;
-    font-style: normal; */
+.navbar-brand{   
     font-family: "Londrina Sketch", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -24,6 +21,9 @@ div#footer-wrapper{
 .img-hover{
     opacity: 0.6;
     cursor: pointer;
+}
+.cursor-pointer{
+    cursor:pointer;
 }
 a#whatsappIcon-con{
     position: fixed;
@@ -63,7 +63,12 @@ i#Gmail-icn {
     font-size: 30px;
     color: rgb(186, 23,11);
 }
-
+.Bk-White{
+    background: white ! important;
+}
+.post-slide{
+    min-height:550px ! important;
+}
 body {
     background-color: #000000;
 }
